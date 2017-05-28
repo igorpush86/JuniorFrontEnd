@@ -1,0 +1,104 @@
+.main-container{
+    display:flex;
+    flex-direction:column;
+    max-width: 800px;
+    max-height: 600px;
+    border: solid 1px black;
+    font-family: 'Trebuchet MS',sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    max-height: 70px;
+    background: #e8f5e9;
+    padding: 0 1% 1% 1%;
+    border-bottom: solid 1px black;
+}
+.header-leftpart{
+    display: flex;
+    flex-basis: 98%;
+    flex-direction: column;
+}
+.topic{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    background: #e8f5e9;
+}
+.created{
+    display: flex;
+    width: 100%;
+    height:40%;
+    background: #e8f5e9;
+    font-size:80%;
+}
+.close{
+    display: flex;
+   align-items: flex-start;
+   background: #e8f5e9;
+   flex-shrink: 0;
+   padding: 1% 1%;
+}
+.discussion-body{
+display: flex;
+max-width: 800px;
+max-height: 530px;
+background: #81c784;
+flex-direction:column;
+overflow:auto;
+}
+.message-body{
+    display:flex;
+    flex-shrink:0;
+}
+.message-body:first-child{
+    margin:0 0 10px 0;
+}
+.message-body:last-child{
+    margin:0 0 10px 0;
+}
+.left-part{
+    max-width:150px;
+    display:flex;
+    border-right:1px solid black;
+    align-items:center;
+    padding:1% 0 1% 3%;
+    justify-content:flex-end;
+}
+.image{
+    display:flex;
+    width:45px;
+    height:45px;
+    font-size:90%;
+    border-radius:50%;
+    border:1px solid black;
+    background:#e8f5e9;
+    justify-content:space-around;
+    align-items:center;
+    flex-shrink:0;
+}
+.date{
+    display:flex;
+    padding:0 0 0 5%;
+    font-size:75%;
+}
+.right-part{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding:10px 10px;
+    margin:auto;
+}
+.name{
+    display:flex;
+    font-size:80%;
+}
+.message{
+    display:flex;
+    border:1px solid black;
+    border-radius:10px;
+    flex-wrap:wrap;
+    background:#a5d6a7;
+    padding:10px;
+    font-size:90%;
+}
